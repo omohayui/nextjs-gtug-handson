@@ -13,7 +13,12 @@ export default function Home() {
         <p>Hello! I'm omohayui, otter artist.</p>
         <p>  Read{' '}
           <Link href="/posts/first-post">
-            <a>this page!</a>
+            <a>the first post! (by file base routing)</a>
+          </Link>
+        </p>
+        <p>  Read{' '}
+          <Link href="/posts/blog">
+            <a>all posts! (by lgray-matter ibrary)</a>
           </Link>
         </p>
         <p>
